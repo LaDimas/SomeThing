@@ -25,6 +25,6 @@
     </tr>
 </table>
 <br>
-<a href="/TestTask_war/parts">Back</a>
+<a href="/parts">Back</a>
 </body>
 </html>

@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>HELLO! I'm first template!!!</h1>
-<a href="/TestTask_war/parts">go to Parts</a>
+<a href="/parts">go to Parts</a>
 </body>
 
 </html>

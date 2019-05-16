@@ -17,8 +17,8 @@ public class PartDaoImpl implements PartDao{
 
     @Override
     public void save(Part part) {
-        String sql = "INSERT INTO test.part(name,need,quantity) VALUES (?,?,?)";
-        jdbcTemplate.update(sql, part.getName(), part.getNeed(), part.getQuantity());
+        String sql = "INSERT INTO test.part(id,name,need,quantity) VALUES (?,?,?,?)";
+        jdbcTemplate.update(sql, part.getId(),part.getName(), part.getNeed(), part.getQuantity());
     }
 
     @Override
@@ -35,8 +35,8 @@ public class PartDaoImpl implements PartDao{
 
     @Override
     public void update(Part part) {
-        String sql = "UPDATE test.part SET name=?, need=?, quantity=?";
-        jdbcTemplate.update(sql, part.getName(), part.getNeed(),part.getQuantity());
+        String sql = "UPDATE test.part SET id=?, name=?, need=?, quantity=?";
+        jdbcTemplate.update(sql, part.getId(), part.getName(), part.getNeed(),part.getQuantity());
     }
 
     @Override

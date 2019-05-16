@@ -7,7 +7,7 @@
 <body>
 <h1>HELLO!</h1>
 <br>
-<a href="/TestTask_war/hello"> Hello page!</a>
+<a href="/hello"> Hello page!</a>
 </body>
 
 </html>

@@ -17,7 +17,7 @@
 <#list parts as part>
     <tr>
         <td>${part.id}</td>
-        <td><a href="/TestTask_war/part/${part.name}">${part.name}</a></td>
+        <td><a href="/part/${part.name}">${part.name}</a></td>
         <td>${part.need}</td>
         <td>${part.quantity}</td>
     </tr>
