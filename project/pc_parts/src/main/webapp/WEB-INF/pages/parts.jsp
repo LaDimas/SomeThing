@@ -173,7 +173,7 @@
         </td>
     </tr>
     <caption class="sign" align="bottom">
-        <span style="float: left; margin-left: 30px;">Можно собрать ${computersCount} компьютеров</span>
+        <span style="float: left; margin-left: 30px;">Можно собрать компьютеры: ${computersCount} шт.</span>
 <%--    <span style="float: right; margin-right: 30px;">Total number of unique parts: ${allPartsCount}</span> --%>
 </caption>
 </table>
